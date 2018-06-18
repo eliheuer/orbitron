@@ -1,34 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="0" maximum="1000" minimum="0" name="width" tag="wdth" />
+        <axis default="400" maximum="900" minimum="100" name="weight" tag="wght" />
     </axes>
     <sources>
-        <source familyname="Orbitron" filename="Orbitron-Light.ufo" stylename="Light">
+        <source familyname="Orbitron Black" filename="Orbitron-Black-Test.ufo" stylename="Regular">
             <location>
-                <dimension name="width" xvalue="0" />
+                <dimension name="weight" xvalue="900" />
             </location>
         </source>
-	<source familyname="Orbitron" filename="Orbitron-Black.ufo" stylename="Black">
+        <source familyname="Orbitron Light" filename="Orbitron-Light-Test.ufo" stylename="Regular">
             <location>
-                <dimension name="width" xvalue="1000" />
+                <dimension name="weight" xvalue="100" />
             </location>
         </source>
     </sources>
-    <instances>
-        <instance familyname="Orbitron" filename="Orbitron-Light.ufo" stylename="Light">
-            <location>
-                <dimension name="width" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>	
-	<instance familyname="Orbitron" filename="Orbitron-Black.ufo" stylename="Black">
-            <location>
-                <dimension name="width" xvalue="1000" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-    </instances>
 </designspace>
