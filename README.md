@@ -1,9 +1,8 @@
-<!-- Uncomment before pull request
-![Orbitron](https://github.com/theleagueof/orbitron/raw/master/images/orbitron-1.jpeg)
--->
+![Orbitron](https://github.com/theleagueof/orbitron/raw/master/images/orbitron-3.png)
 
-<!-- Updated image for variable mastering fork -->
+<!-- Updated image for variable mastering fork
 ![Orbitron](https://github.com/eliheuer/orbitron/raw/vf-mastering/documentation/images/orbitron-variable-demo.gif))
+-->
 
 Orbitron
 ========
