@@ -2,11 +2,14 @@ FONTLOG for Orbitron
 –––––––––––––––––––––––––––––––––––––––––
 This file provides detailed information on the Orbitron Font Software.
 
-This information should be distributed along with the Orbitron fonts and any derivative works.
+This information should be distributed along with the Orbitron fonts
+and any derivative works.
 
 Basic Font Information
 –––––––––––––––––––––––––––––––––––––––––
-Orbitron is a geometric sans-serif typeface intended for display purposes. It features four weights (light, medium, bold, and black), a stylistic alternative, small caps, and a ton of alternate glyphs. 
+Orbitron is a geometric sans-serif typeface intended for display 
+purposes. It features four weights (light, medium, bold, and black), 
+a stylistic alternative, small caps, and a ton of alternate glyphs. 
 
 
 N: Matt McInerney
