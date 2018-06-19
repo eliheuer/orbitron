@@ -4,12 +4,12 @@
         <axis default="400" maximum="900" minimum="100" name="weight" tag="wght" />
     </axes>
     <sources>
-        <source familyname="Orbitron Black" filename="Orbitron-Black-Test.ufo" stylename="Regular">
+        <source familyname="Orbitron Black" filename="Orbitron-Black.ufo" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="900" />
             </location>
         </source>
-        <source familyname="Orbitron Light" filename="Orbitron-Light-Test.ufo" stylename="Regular">
+        <source familyname="Orbitron Light" filename="Orbitron-Light.ufo" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="100" />
             </location>
