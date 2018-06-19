@@ -13,7 +13,7 @@ for axis, data in listFontVariations().items():
 # Variables using vanilla ui widgets.
 Variable([
     dict(name="input_text", ui="EditText", args=dict(text='A')),
-    dict(name="slider", ui="Slider", args=dict(value=0, minValue=-1000, maxValue=1000)),
+    dict(name="slider", ui="Slider", args=dict(value=0, minValue=0, maxValue=1000)),
 ], globals())
 
 # console output, uncomment for additional info
