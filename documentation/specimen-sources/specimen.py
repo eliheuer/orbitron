@@ -35,7 +35,7 @@ class Text(object):
         fontSize(32)
         font('Verdana')
         fill(0)
-        text('Headline of the article', (page.padding, page.h-2*page.padding))
+        text('Hello World', (page.padding, page.h-2*page.padding))
         
 class Page(object):
     def __init__(self, w, h, title=None, padding=None):
@@ -68,4 +68,4 @@ page.elements.append(Image('aaa', 0, 300, 50, 50))
 page.elements.append(Image('aaa', 0, 394, 150, 150))
 page.draw()
 
-saveImage('example.gif')
+#saveImage('example.gif')
