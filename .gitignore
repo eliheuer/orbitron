@@ -2,3 +2,5 @@
 WoodbineGX.*
 *.ttx
 references/*
+glyphs-exports/*
+glyphs-exports/
