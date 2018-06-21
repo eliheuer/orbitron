@@ -6,16 +6,30 @@
 	<integer>750</integer>
 	<key>capHeight</key>
 	<integer>720</integer>
+	<key>copyright</key>
+	<string>Copyright 2009 The Orbitron Authors (https://github.com/theleagueof/orbitron)</string>
 	<key>descender</key>
 	<integer>-250</integer>
 	<key>familyName</key>
-	<string>Orbitron Light</string>
+	<string>Orbitron</string>
 	<key>guidelines</key>
 	<array/>
 	<key>italicAngle</key>
 	<real>0.0</real>
 	<key>openTypeHeadCreated</key>
 	<string>2011/05/25 15:46:57</string>
+	<key>openTypeNameDesigner</key>
+	<string>Matt McInerney</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>http://matt.cc/</string>
+	<key>openTypeNameLicense</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
+	<key>openTypeNameManufacturer</key>
+	<string>The League of Moveable Type</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>https://www.theleagueofmoveabletype.com/</string>
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>Orbitron</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
@@ -45,7 +59,7 @@
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>Regular</string>
+	<string>Light</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
