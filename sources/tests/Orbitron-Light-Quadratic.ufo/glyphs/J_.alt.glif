@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="J.alt" format="2">
+  <advance width="645"/>
+  <outline>
+    <contour>
+      <point x="506" y="120" type="line" smooth="yes"/>
+      <point x="506.0" y="104.32835820895522"/>
+      <point x="483.67164179104475" y="81.0"/>
+      <point x="468" y="81" type="qcurve" smooth="yes"/>
+      <point x="3" y="81" type="line"/>
+      <point x="3" y="0" type="line"/>
+      <point x="468" y="0" type="line" smooth="yes"/>
+      <point x="517.2537313432836" y="0.0"/>
+      <point x="588.0" y="70.0"/>
+      <point x="588" y="120" type="qcurve" smooth="yes"/>
+      <point x="588" y="720" type="line"/>
+      <point x="506" y="720" type="line"/>
+    </contour>
+  </outline>
+</glyph>

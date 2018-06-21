@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="N.alt" format="2">
+  <advance width="827"/>
+  <outline>
+    <contour>
+      <point x="135" y="0" type="line"/>
+      <point x="135" y="639" type="line"/>
+      <point x="654" y="639" type="line" smooth="yes"/>
+      <point x="669.6716417910447" y="639.0"/>
+      <point x="693.0" y="615.6716417910447"/>
+      <point x="693" y="600" type="qcurve" smooth="yes"/>
+      <point x="693" y="0" type="line"/>
+      <point x="774" y="0" type="line"/>
+      <point x="774" y="600" type="line" smooth="yes"/>
+      <point x="774.0" y="650.0"/>
+      <point x="704.0" y="720.0"/>
+      <point x="654" y="720" type="qcurve" smooth="yes"/>
+      <point x="54" y="720" type="line"/>
+      <point x="54" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

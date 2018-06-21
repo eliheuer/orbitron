@@ -1,8 +1,10 @@
 {
 .appVersion = "1141";
 DisplayStrings = (
-A,
-a
+"Á",
+"/A.alt3",
+"Ä",
+"/A.alt2"
 );
 copyright = "Copyright 2009 The Orbitron Authors (https://github.com/theleagueof/orbitron)";
 customParameters = (

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="w.sc" format="2">
+  <advance width="1078"/>
+  <outline>
+    <contour>
+      <point x="864" y="580" type="line"/>
+      <point x="834.8955223880597" y="506.11940298507466"/>
+      <point x="773.8507462686567" y="349.6268656716418"/>
+      <point x="744" y="275" type="qcurve"/>
+      <point x="600" y="580" type="line"/>
+      <point x="460" y="580" type="line"/>
+      <point x="325" y="276" type="line"/>
+      <point x="196" y="580" type="line"/>
+      <point x="34" y="580" type="line"/>
+      <point x="266" y="0" type="line"/>
+      <point x="381" y="0" type="line"/>
+      <point x="400.4029850746269" y="42.537313432835816"/>
+      <point x="444.5970149253731" y="143.97014925373134"/>
+      <point x="464" y="188" type="qcurve" smooth="yes"/>
+      <point x="531" y="339" type="line"/>
+      <point x="688" y="0" type="line"/>
+      <point x="804" y="0" type="line"/>
+      <point x="1027" y="580" type="line"/>
+    </contour>
+  </outline>
+</glyph>

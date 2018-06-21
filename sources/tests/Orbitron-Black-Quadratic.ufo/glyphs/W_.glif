@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="W" format="2">
+  <advance width="1179"/>
+  <unicode hex="0057"/>
+  <outline>
+    <contour>
+      <point x="972" y="720" type="line"/>
+      <point x="939.9104477611941" y="632.6865671641791"/>
+      <point x="872.0895522388059" y="444.56716417910445"/>
+      <point x="840" y="358" type="qcurve" smooth="yes"/>
+      <point x="815" y="291" type="line"/>
+      <point x="657" y="720" type="line"/>
+      <point x="514" y="720" type="line"/>
+      <point x="481.91044776119406" y="632.6865671641791"/>
+      <point x="414.08955223880594" y="444.56716417910445"/>
+      <point x="382" y="358" type="qcurve" smooth="yes"/>
+      <point x="357" y="291" type="line"/>
+      <point x="200" y="720" type="line"/>
+      <point x="35" y="720" type="line"/>
+      <point x="297" y="0" type="line"/>
+      <point x="416" y="0" type="line"/>
+      <point x="439.88059701492534" y="67.91044776119402"/>
+      <point x="495.6268656716418" y="217.59701492537314"/>
+      <point x="521" y="287" type="qcurve" smooth="yes"/>
+      <point x="585" y="463" type="line"/>
+      <point x="755" y="0" type="line"/>
+      <point x="874" y="0" type="line"/>
+      <point x="1136" y="720" type="line"/>
+    </contour>
+  </outline>
+</glyph>
