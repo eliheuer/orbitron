@@ -51,15 +51,26 @@ fontSize(134)
 # stroke(None)
 fill(0)
 stroke(None)
+# tracking(0)
 
 for i in range(1,5):
     text("Orbitron", (-8, -114+(i*114)))
 
-fontSize(256)
+fontSize(60)
+fill(1)
+stroke(0)
+strokeWidth(2)
+
+for j in range(1,5):
+    text("variable", (620, -114+(j*114)))
+
+fontSize(50)
+letters = ["t", "n", "o", "f"]
 fill(0)
 stroke(None)
-for j in range(1, 5):
-    text("R", (700, -250+(i*64)))
-    
+
+for k in range(1,5):
+    text(letters[k-1], (930, -114+(k*114)))
+
 saveImage('example.gif')
 
