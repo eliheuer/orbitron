@@ -45,7 +45,7 @@ grid(origin, width, height, num_x_units*2, num_y_units*2) # grid on
 x, y, w, h = 0, 0, ((col * 8)+(gut *7)), 173
 
 # Fonts
-font("fonts/Orbitron-Regular.ttf")
+font("fonts/Orbitron-VF.ttf")
 fontSize(134)
 
 # stroke(None)
@@ -54,7 +54,7 @@ stroke(None)
 # tracking(0)
 
 for i in range(1,5):
-    text("Orbitron", (-8, -114+(i*114)))
+    text("ORBITRON", (-8, -114+(i*114)))
 
 fontSize(60)
 fill(1)
