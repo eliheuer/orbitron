@@ -1,71 +1,65 @@
-import os
+# Layout
+size(1024, 512)
 
-SQUARE = 1024, 1024
+# gird variables
+origin = (32, 32)
+height = 448
+width = 960
+center = width/2
+num_x_units = 64
+num_y_units = 8
+gut = 8 
+col = 112
+col_num = 8
 
-class Image(object):
-    def __init__(self, path, x, y, w, h):
-        self.path = path
-        self.x = x
-        self.y = y
-        self.w = w
-        self.h = h
+def grid(origin, width, height, num_x_units, num_y_units):
+    translate(*origin)
+    strokeWidth(0.5)
+    stroke(0.9)  
+    fill(None)
+
+    step_y = 0 
+    unit_y = height / num_y_units
+    for y in range(num_y_units + 1):
+        line((0, step_y), (width, step_y))
+        step_y += unit_y
         
-    def draw(self, page):
-        #Headline
-        fill(random(), random(), random())
-        stroke(None)
-        rect(page.padding+self.x, page.padding+self.y, self.w, self.h)
-        fontSize(32)
-        font('Verdana')
-        fill(0)
- 
-class Text(object):
-    def __init__(self, s, x, y, w, h):
-        self.s = s
-        self.x = x
-        self.y = y
-        self.w = w
-        self.h = h
-        
-    def draw(self, page):
-        #Headline
-        fill(0.8)
-        stroke(None)
-        rect(page.padding, page.padding, self.w, self.h)
-        fontSize(32)
-        font('Verdana')
-        fill(0)
-        text('Hello World', (page.padding, page.h-2*page.padding))
-        
-class Page(object):
-    def __init__(self, w, h, title=None, padding=None):
-        self.w = w
-        self.h = h
-        self.title = title or 'untitled'
-        self.padding = padding or 64
-        self.elements = []
+    step_col = 0 
+    stroke(0, 0, 1)
+#    for column in range(8): 
+#        rect(step_col, 0, col, height)
+#        step_col += (col + gut)
 
-    def __repr__(self):
-        #return 'test'
-        return '%s(w=%d,h=%d,%s)' % (self.__class__.__name__, self.w, self.h, self.title)
+# newpage
+fill(0.9) # color of background
+rect(0, 0, 1024, 512) # draw the background
 
-    def draw(self):
-        newPage(self.w, self.h)
-        stroke(0.6)
-        fill(None)
-        # Info
-        rect(self.padding, self.padding, self.w-2*self.padding, self.h-2*self.padding)
-        
-        for element in self.elements:
-            element.draw(self)
-            
-#-------------------
+fill(0)
+stroke(None)
+# rect(0, 0, 288, 216)
 
-W, H = SQUARE
-page = Page(W, H, 'MySpread')
-page.elements.append(Text('Hello World', 0, 400, 23, 45))
-page.elements.append(Image('aaa', 0, 300, 50, 50))
-page.elements.append(Image('aaa', 0, 394, 150, 150))
-page.draw()
+# translate(*origin) # grid off
+grid(origin, width, height, num_x_units*2, num_y_units*2) # grid on
 
-#saveImage('example.gif')
+# Debug 
+x, y, w, h = 0, 0, ((col * 8)+(gut *7)), 173
+
+# Fonts
+font("fonts/Orbitron-Regular.ttf")
+fontSize(134)
+
+# stroke(None)
+fill(0)
+stroke(None)
+
+for i in range(1,5):
+    text("Orbitron", (-8, -114+(i*114)))
+
+fontSize(256)
+fill(0)
+stroke(None)
+for j in range(1, 5):
+    text("R", (700, -250+(i*64)))
+    
+saveImage('example.gif')
+
