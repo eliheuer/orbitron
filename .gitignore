@@ -1,5 +1,6 @@
 .DS_Store
 *.ttx
+tests/*
 references/*
 glyphs-exports/*
 glyphs-exports/
