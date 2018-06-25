@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="M.alt" format="2">
+  <advance width="1155.0"/>
+  <outline>
+    <contour>
+      <point x="54.0" y="720.0" type="line"/>
+      <point x="54.0" y="0.0" type="line"/>
+      <point x="209.0" y="0.0" type="line"/>
+      <point x="209.0" y="564.0" type="line"/>
+      <point x="443.0" y="564.0" type="line" smooth="yes"/>
+      <point x="476.0" y="564.0"/>
+      <point x="476.0" y="564.0"/>
+      <point x="476.0" y="531.0" type="qcurve" smooth="yes"/>
+      <point x="476.0" y="0.0" type="line"/>
+      <point x="632.0" y="0.0" type="line"/>
+      <point x="632.0" y="564.0" type="line"/>
+      <point x="887.0" y="564.0" type="line" smooth="yes"/>
+      <point x="920.0" y="564.0"/>
+      <point x="920.0" y="564.0"/>
+      <point x="920.0" y="531.0" type="qcurve" smooth="yes"/>
+      <point x="920.0" y="0.0" type="line"/>
+      <point x="1076.0" y="0.0" type="line"/>
+      <point x="1076.0" y="572.0" type="line" smooth="yes"/>
+      <point x="1076.0" y="633.194"/>
+      <point x="988.701" y="720.0"/>
+      <point x="929.0" y="720.0" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
