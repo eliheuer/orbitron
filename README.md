@@ -4,7 +4,7 @@
 -->
 
 <!-- Updated image for variable mastering fork -->
-![Orbitron](https://github.com/eliheuer/orbitron/blob/vf-mastering/documentation/images/animated-specimen-basic.gif)
+![Orbitron](https://github.com/eliheuer/orbitron/blob/vf-mastering/documentation/images/basic-animated-specimen.gif)
 
 Orbitron
 ========
