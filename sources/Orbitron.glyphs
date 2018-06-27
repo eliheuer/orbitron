@@ -47,6 +47,38 @@ ascender = 750;
 capHeight = 720;
 customParameters = (
 {
+name = typoAscender;
+value = 750;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 750;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = hheaAscender;
+value = 750;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
 name = "Axis Location";
 value = (
 {
@@ -71,6 +103,38 @@ ascender = 750;
 capHeight = 720;
 custom = Black;
 customParameters = (
+{
+name = typoAscender;
+value = 750;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 750;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = hheaAscender;
+value = 750;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
 {
 name = "Axis Location";
 value = (
@@ -9001,7 +9065,7 @@ paths = (
 closed = 1;
 nodes = (
 "58 -243 LINE SMOOTH",
-"108.746 -243 OFFCURVE",
+"109 -243 OFFCURVE",
 "180 -171.746 OFFCURVE",
 "180 -121 QCURVE SMOOTH",
 "180 580 LINE",
@@ -19654,6 +19718,118 @@ width = 500;
 unicode = 00A6;
 },
 {
+glyphname = dieresiscomb;
+layers = (
+{
+layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+width = 600;
+},
+{
+layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+width = 600;
+}
+);
+unicode = 0308;
+},
+{
+glyphname = dotaccentcomb;
+layers = (
+{
+layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+width = 600;
+},
+{
+layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+width = 600;
+}
+);
+unicode = 0307;
+},
+{
+glyphname = gravecomb;
+layers = (
+{
+layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+width = 600;
+},
+{
+layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+width = 600;
+}
+);
+unicode = 0300;
+},
+{
+glyphname = acutecomb;
+layers = (
+{
+layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+width = 600;
+},
+{
+layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+width = 600;
+}
+);
+unicode = 0301;
+},
+{
+glyphname = circumflexcomb;
+layers = (
+{
+layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+width = 600;
+},
+{
+layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+width = 600;
+}
+);
+unicode = 0302;
+},
+{
+glyphname = ringcomb;
+layers = (
+{
+layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+width = 600;
+},
+{
+layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+width = 600;
+}
+);
+unicode = 030A;
+},
+{
+glyphname = tildecomb;
+layers = (
+{
+layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+width = 600;
+},
+{
+layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+width = 600;
+}
+);
+unicode = 0303;
+},
+{
+glyphname = cedillacomb;
+layers = (
+{
+layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+width = 600;
+},
+{
+layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+width = 600;
+}
+);
+unicode = 0327;
+},
+{
 color = 4;
 glyphname = acute;
 layers = (
@@ -21042,6 +21218,19 @@ manufacturer = "The League of Moveable Type";
 manufacturerURL = "https://www.theleagueofmoveabletype.com/";
 unitsPerEm = 1000;
 userData = {
+GSDimensionPlugin.Dimensions = {
+"17A5F7C0-AED1-4270-89BA-BFDC1003B8A5" = {
+HH = "81";
+HV = "81";
+OH = "81";
+OV = "81";
+nV = "82";
+nd = "82";
+oH = "82";
+oV = "82";
+tH = "82";
+};
+};
 UFO.lib = {
 com.typemytype.robofont.compileSettings.autohint = 1;
 com.typemytype.robofont.compileSettings.checkOutlines = 0;
