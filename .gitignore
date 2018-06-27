@@ -4,3 +4,4 @@ tests/*
 references/*
 glyphs-exports/*
 glyphs-exports/
+variable_ttf/*

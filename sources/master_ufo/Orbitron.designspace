@@ -62,6 +62,30 @@
     </instances>
     <lib>
         <dict>
+            <key>GSDimensionPlugin.Dimensions</key>
+            <dict>
+                <key>17A5F7C0-AED1-4270-89BA-BFDC1003B8A5</key>
+                <dict>
+                    <key>HH</key>
+                    <string>81</string>
+                    <key>HV</key>
+                    <string>81</string>
+                    <key>OH</key>
+                    <string>81</string>
+                    <key>OV</key>
+                    <string>81</string>
+                    <key>nV</key>
+                    <string>82</string>
+                    <key>nd</key>
+                    <string>82</string>
+                    <key>oH</key>
+                    <string>82</string>
+                    <key>oV</key>
+                    <string>82</string>
+                    <key>tH</key>
+                    <string>82</string>
+                </dict>
+            </dict>
             <key>UFO.lib</key>
             <dict>
                 <key>com.typemytype.robofont.compileSettings.autohint</key>

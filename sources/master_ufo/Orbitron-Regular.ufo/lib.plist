@@ -297,6 +297,7 @@
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 		<string>space</string>
+		<string>nbspace</string>
 		<string>CR</string>
 		<string>.notdef</string>
 		<string>.null</string>
@@ -327,6 +328,14 @@
 		<string>degree</string>
 		<string>bar</string>
 		<string>brokenbar</string>
+		<string>dieresiscomb</string>
+		<string>dotaccentcomb</string>
+		<string>gravecomb</string>
+		<string>acutecomb</string>
+		<string>circumflexcomb</string>
+		<string>ringcomb</string>
+		<string>tildecomb</string>
+		<string>cedillacomb</string>
 		<string>acute</string>
 		<string>breve</string>
 		<string>caron</string>
@@ -344,14 +353,26 @@
 	</array>
 	<key>public.postscriptNames</key>
 	<dict>
+		<key>cedillacomb</key>
+		<string>uni0327</string>
+		<key>circumflexcomb</key>
+		<string>uni0302</string>
+		<key>dieresiscomb</key>
+		<string>uni0308</string>
+		<key>dotaccentcomb</key>
+		<string>uni0307</string>
 		<key>guillemetleft</key>
 		<string>guillemotleft</string>
 		<key>guillemetright</key>
 		<string>guillemotright</string>
 		<key>mu</key>
 		<string>uni03BC</string>
+		<key>nbspace</key>
+		<string>uni00A0</string>
 		<key>onesuperior</key>
 		<string>uni00B9</string>
+		<key>ringcomb</key>
+		<string>uni030A</string>
 		<key>threesuperior</key>
 		<string>uni00B3</string>
 		<key>twosuperior</key>

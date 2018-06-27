@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name=".notdef" format="2">
+  <advance width="512.0"/>
   <outline>
+    <contour>
+      <point x="64.0" y="469.0" type="line"/>
+      <point x="64.0" y="225.0" type="line"/>
+      <point x="308.0" y="225.0" type="line"/>
+      <point x="308.0" y="469.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="199.0" y="318.0" type="line"/>
+      <point x="400.0" y="318.0" type="line"/>
+      <point x="400.0" y="117.0" type="line"/>
+      <point x="199.0" y="117.0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
