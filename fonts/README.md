@@ -9,13 +9,8 @@ STAT table has been created by hand editing a ttx conversion.
 DSGI table has been created by hand editing a ttx conversion.
 
 ```
-<DSIG>
+  <DSIG>
     <!-- note that the Digital Signature will be invalid after recompilation! -->
-    <tableHeader flag="0x1" numSigs="1" version="1"/>
-    <SignatureRecord format="1">
------BEGIN PKCS7-----
-0000000100000000
------END PKCS7-----
-    </SignatureRecord>
+    <tableHeader flag="0x0" numSigs="0" version="1"/>
   </DSIG>
 ```
