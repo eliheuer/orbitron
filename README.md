@@ -1,5 +1,5 @@
 
-![Orbitron](https://github.com/theleagueof/orbitron/raw/master/images/orbitron-3.png)
+![Orbitron](https://github.com/theleagueof/orbitron/raw/master/images/orbitron-1.png)
 
 Orbitron
 ========
