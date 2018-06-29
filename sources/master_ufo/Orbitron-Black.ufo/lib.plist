@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>GSCornerRadius</key>
-	<integer>16</integer>
+	<integer>32</integer>
 	<key>com.schriftgestaltung.appVersion</key>
 	<string>1141</string>
 	<key>com.schriftgestaltung.customName</key>
@@ -351,6 +351,8 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
+		<string>acutecomb.case</string>
+		<string>circumflexcomb.case</string>
 		<string>uniE000</string>
 	</array>
 	<key>public.postscriptNames</key>

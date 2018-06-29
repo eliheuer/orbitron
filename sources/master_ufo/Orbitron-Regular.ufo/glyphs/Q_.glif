@@ -41,6 +41,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=O</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

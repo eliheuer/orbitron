@@ -2,35 +2,10 @@
 <glyph name="Adieresis" format="2">
   <advance width="836.0"/>
   <unicode hex="00C4"/>
+  <anchor x="418.0" y="0.0" name="bottom"/>
+  <anchor x="740.0" y="0.0" name="ogonek"/>
+  <anchor x="419.0" y="750.0" name="top"/>
   <outline>
-    <contour>
-      <point x="58.0" y="0.0" type="line"/>
-      <point x="139.0" y="0.0" type="line"/>
-      <point x="139.0" y="263.0" type="line"/>
-      <point x="697.0" y="263.0" type="line"/>
-      <point x="697.0" y="0.0" type="line"/>
-      <point x="778.0" y="0.0" type="line"/>
-      <point x="778.0" y="600.0" type="line" smooth="yes"/>
-      <point x="778.0" y="650.0"/>
-      <point x="708.0" y="720.0"/>
-      <point x="658.0" y="720.0" type="qcurve" smooth="yes"/>
-      <point x="178.0" y="720.0" type="line" smooth="yes"/>
-      <point x="128.0" y="720.0"/>
-      <point x="58.0" y="650.0"/>
-      <point x="58.0" y="600.0" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="139.0" y="344.0" type="line"/>
-      <point x="139.0" y="600.0" type="line" smooth="yes"/>
-      <point x="139.0" y="615.672"/>
-      <point x="162.328" y="639.0"/>
-      <point x="178.0" y="639.0" type="qcurve" smooth="yes"/>
-      <point x="658.0" y="639.0" type="line" smooth="yes"/>
-      <point x="673.672" y="639.0"/>
-      <point x="697.0" y="615.672"/>
-      <point x="697.0" y="600.0" type="qcurve" smooth="yes"/>
-      <point x="697.0" y="344.0" type="line"/>
-    </contour>
     <contour>
       <point x="279.0" y="855.0" type="line"/>
       <point x="362.0" y="855.0" type="line"/>
@@ -43,6 +18,7 @@
       <point x="541.0" y="937.0" type="line"/>
       <point x="459.0" y="937.0" type="line"/>
     </contour>
+    <component base="A"/>
   </outline>
   <lib>
     <dict>

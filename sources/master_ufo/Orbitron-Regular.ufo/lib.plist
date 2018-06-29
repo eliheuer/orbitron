@@ -349,6 +349,8 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
+		<string>acutecomb.case</string>
+		<string>circumflexcomb.case</string>
 		<string>uniE000</string>
 	</array>
 	<key>public.postscriptNames</key>

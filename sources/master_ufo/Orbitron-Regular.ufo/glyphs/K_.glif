@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="K" format="2">
-  <advance width="797.0"/>
+  <advance width="760.0"/>
   <unicode hex="004B"/>
   <outline>
     <contour>
-      <point x="57.0" y="0.0" type="line"/>
-      <point x="139.0" y="0.0" type="line"/>
-      <point x="139.0" y="319.0" type="line"/>
-      <point x="371.0" y="319.0" type="line"/>
-      <point x="639.0" y="0.0" type="line"/>
-      <point x="744.0" y="0.0" type="line"/>
-      <point x="744.0" y="1.0" type="line"/>
-      <point x="442.0" y="360.0" type="line"/>
-      <point x="743.0" y="719.0" type="line"/>
-      <point x="743.0" y="720.0" type="line"/>
-      <point x="639.0" y="720.0" type="line"/>
-      <point x="371.0" y="401.0" type="line"/>
-      <point x="139.0" y="401.0" type="line"/>
-      <point x="139.0" y="720.0" type="line"/>
-      <point x="57.0" y="720.0" type="line"/>
+      <point x="56.0" y="0.0" type="line"/>
+      <point x="138.0" y="0.0" type="line"/>
+      <point x="138.0" y="319.0" type="line"/>
+      <point x="370.0" y="319.0" type="line"/>
+      <point x="638.0" y="0.0" type="line"/>
+      <point x="743.0" y="0.0" type="line"/>
+      <point x="743.0" y="1.0" type="line"/>
+      <point x="441.0" y="360.0" type="line"/>
+      <point x="742.0" y="719.0" type="line"/>
+      <point x="742.0" y="720.0" type="line"/>
+      <point x="638.0" y="720.0" type="line"/>
+      <point x="370.0" y="401.0" type="line"/>
+      <point x="138.0" y="401.0" type="line"/>
+      <point x="138.0" y="720.0" type="line"/>
+      <point x="56.0" y="720.0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=N</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=Y</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -1,8 +1,8 @@
 table GDEF {
   # automatic
   GlyphClassDef
-    , # Base
+    [A Aacute Acircumflex Adieresis Agrave Aring Atilde E Eacute Ecircumflex Edieresis Egrave O Oslash a aacute circumflexcomb.case], # Base
     , # Liga
-    [dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb], # Mark
+    [dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb acutecomb.case], # Mark
     ;
 } GDEF;

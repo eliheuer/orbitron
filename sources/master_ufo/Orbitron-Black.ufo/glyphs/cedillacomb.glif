@@ -2,11 +2,19 @@
 <glyph name="cedillacomb" format="2">
   <unicode hex="0327"/>
   <outline>
+    <contour>
+      <point x="249.0" y="-29.0" type="line"/>
+      <point x="249.0" y="-364.0" type="line"/>
+      <point x="367.0" y="-364.0" type="line"/>
+      <point x="367.0" y="-29.0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <real>600.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

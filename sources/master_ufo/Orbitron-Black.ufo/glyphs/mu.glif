@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mu" format="2">
-  <advance width="500.0"/>
+  <advance width="695.0"/>
   <unicode hex="03BC"/>
   <outline>
+    <contour>
+      <point x="48.0" y="-250.0" type="line"/>
+      <point x="201.0" y="-250.0" type="line"/>
+      <point x="201.0" y="448.0" type="line"/>
+      <point x="48.0" y="448.0" type="line"/>
+    </contour>
+    <component base="u"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

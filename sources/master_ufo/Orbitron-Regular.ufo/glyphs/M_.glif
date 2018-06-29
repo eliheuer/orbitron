@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="M" format="2">
-  <advance width="928.0"/>
+  <advance width="932.0"/>
   <unicode hex="004D"/>
   <outline>
     <contour>
@@ -20,6 +20,10 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=N</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=N</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

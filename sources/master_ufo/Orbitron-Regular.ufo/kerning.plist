@@ -45,6 +45,8 @@
 		<real>5.0</real>
 		<key>T</key>
 		<real>10.0</real>
+		<key>period</key>
+		<real>-128.0</real>
 		<key>y</key>
 		<real>-20.0</real>
 	</dict>
@@ -496,7 +498,7 @@
 	<key>w</key>
 	<dict>
 		<key>e</key>
-		<real>-20.0</real>
+		<real>-32.0</real>
 		<key>o</key>
 		<real>-20.0</real>
 		<key>r</key>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="s" format="2">
-  <advance width="686.0"/>
+  <advance width="687.0"/>
   <unicode hex="0073"/>
   <outline>
     <contour>
@@ -60,6 +60,10 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=o</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

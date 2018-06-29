@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven" format="2">
-  <advance width="660.0"/>
+  <advance width="657.0"/>
   <unicode hex="0037"/>
   <outline>
     <contour>
-      <point x="522.0" y="0.0" type="line"/>
-      <point x="604.0" y="0.0" type="line"/>
-      <point x="604.0" y="599.0" type="line" smooth="yes"/>
-      <point x="604.0" y="649.746"/>
-      <point x="533.0" y="721.0"/>
-      <point x="483.0" y="721.0" type="qcurve" smooth="yes"/>
-      <point x="3.0" y="721.0" type="line"/>
-      <point x="3.0" y="638.0" type="line"/>
-      <point x="483.0" y="638.0" type="line" smooth="yes"/>
-      <point x="498.672" y="638.0"/>
-      <point x="522.0" y="614.672"/>
-      <point x="522.0" y="599.0" type="qcurve" smooth="yes"/>
+      <point x="519.0" y="0.0" type="line"/>
+      <point x="601.0" y="0.0" type="line"/>
+      <point x="601.0" y="599.0" type="line" smooth="yes"/>
+      <point x="601.0" y="650.0"/>
+      <point x="530.0" y="721.0"/>
+      <point x="480.0" y="721.0" type="qcurve" smooth="yes"/>
+      <point x="0.0" y="721.0" type="line"/>
+      <point x="0.0" y="638.0" type="line"/>
+      <point x="480.0" y="638.0" type="line" smooth="yes"/>
+      <point x="496.0" y="638.0"/>
+      <point x="519.0" y="615.0"/>
+      <point x="519.0" y="599.0" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

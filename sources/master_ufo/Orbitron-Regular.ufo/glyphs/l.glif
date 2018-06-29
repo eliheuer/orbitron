@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l" format="2">
-  <advance width="302.0"/>
+  <advance width="275.0"/>
   <unicode hex="006C"/>
   <outline>
     <contour>
-      <point x="173.0" y="0.0" type="qcurve" smooth="yes"/>
-      <point x="271.0" y="0.0" type="line"/>
-      <point x="271.0" y="82.0" type="line"/>
-      <point x="173.0" y="82.0" type="line" smooth="yes"/>
-      <point x="157.328" y="82.0"/>
-      <point x="134.0" y="105.328"/>
-      <point x="134.0" y="121.0" type="qcurve" smooth="yes"/>
-      <point x="134.0" y="770.0" type="line"/>
-      <point x="52.0" y="770.0" type="line"/>
-      <point x="52.0" y="121.0" type="line" smooth="yes"/>
-      <point x="52.0" y="71.0"/>
-      <point x="123.0" y="0.0"/>
+      <point x="169.0" y="0.0" type="qcurve" smooth="yes"/>
+      <point x="267.0" y="0.0" type="line"/>
+      <point x="267.0" y="82.0" type="line"/>
+      <point x="169.0" y="82.0" type="line" smooth="yes"/>
+      <point x="153.0" y="82.0"/>
+      <point x="130.0" y="105.0"/>
+      <point x="130.0" y="121.0" type="qcurve" smooth="yes"/>
+      <point x="130.0" y="770.0" type="line"/>
+      <point x="48.0" y="770.0" type="line"/>
+      <point x="48.0" y="121.0" type="line" smooth="yes"/>
+      <point x="48.0" y="71.0"/>
+      <point x="119.0" y="0.0"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=h</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=r</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

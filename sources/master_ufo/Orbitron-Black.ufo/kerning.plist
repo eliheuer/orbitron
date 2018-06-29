@@ -445,7 +445,7 @@
 		<key>f</key>
 		<real>20.0</real>
 		<key>g</key>
-		<real>10.0</real>
+		<real>0.0</real>
 		<key>h</key>
 		<real>20.0</real>
 		<key>k</key>
@@ -729,6 +729,8 @@
 	</dict>
 	<key>v</key>
 	<dict>
+		<key>a</key>
+		<real>-32.0</real>
 		<key>e</key>
 		<real>-30.0</real>
 		<key>i</key>
@@ -745,7 +747,7 @@
 		<key>c</key>
 		<real>-30.0</real>
 		<key>e</key>
-		<real>-57.0</real>
+		<real>-32.0</real>
 		<key>g</key>
 		<real>-49.0</real>
 		<key>h</key>

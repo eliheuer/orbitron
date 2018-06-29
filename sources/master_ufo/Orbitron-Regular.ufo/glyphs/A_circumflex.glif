@@ -2,44 +2,13 @@
 <glyph name="Acircumflex" format="2">
   <advance width="836.0"/>
   <unicode hex="00C2"/>
+  <anchor x="418.0" y="0.0" name="bottom"/>
+  <anchor x="740.0" y="0.0" name="ogonek"/>
+  <anchor x="419.0" y="750.0" name="top_1"/>
+  <anchor x="420.0" y="750.0" name="top_2"/>
   <outline>
-    <contour>
-      <point x="58.0" y="0.0" type="line"/>
-      <point x="139.0" y="0.0" type="line"/>
-      <point x="139.0" y="263.0" type="line"/>
-      <point x="697.0" y="263.0" type="line"/>
-      <point x="697.0" y="0.0" type="line"/>
-      <point x="778.0" y="0.0" type="line"/>
-      <point x="778.0" y="600.0" type="line" smooth="yes"/>
-      <point x="778.0" y="650.0"/>
-      <point x="708.0" y="720.0"/>
-      <point x="658.0" y="720.0" type="qcurve" smooth="yes"/>
-      <point x="178.0" y="720.0" type="line" smooth="yes"/>
-      <point x="128.0" y="720.0"/>
-      <point x="58.0" y="650.0"/>
-      <point x="58.0" y="600.0" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="139.0" y="344.0" type="line"/>
-      <point x="139.0" y="600.0" type="line" smooth="yes"/>
-      <point x="139.0" y="615.672"/>
-      <point x="162.328" y="639.0"/>
-      <point x="178.0" y="639.0" type="qcurve" smooth="yes"/>
-      <point x="658.0" y="639.0" type="line" smooth="yes"/>
-      <point x="673.672" y="639.0"/>
-      <point x="697.0" y="615.672"/>
-      <point x="697.0" y="600.0" type="qcurve" smooth="yes"/>
-      <point x="697.0" y="344.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="296.0" y="864.0" type="line"/>
-      <point x="337.0" y="864.0" type="line"/>
-      <point x="397.0" y="949.0" type="line"/>
-      <point x="455.0" y="864.0" type="line"/>
-      <point x="497.0" y="864.0" type="line"/>
-      <point x="426.0" y="981.0" type="line"/>
-      <point x="367.0" y="981.0" type="line"/>
-    </contour>
+    <component base="A"/>
+    <component base="circumflexcomb.case" xOffset="420.0" yOffset="30.0"/>
   </outline>
   <lib>
     <dict>

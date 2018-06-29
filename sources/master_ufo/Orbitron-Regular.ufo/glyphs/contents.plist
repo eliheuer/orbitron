@@ -190,6 +190,8 @@
 	<string>acute.glif</string>
 	<key>acutecomb</key>
 	<string>acutecomb.glif</string>
+	<key>acutecomb.case</key>
+	<string>acutecomb.case.glif</string>
 	<key>adieresis</key>
 	<string>adieresis.glif</string>
 	<key>ae</key>
@@ -250,6 +252,8 @@
 	<string>circumflex.glif</string>
 	<key>circumflexcomb</key>
 	<string>circumflexcomb.glif</string>
+	<key>circumflexcomb.case</key>
+	<string>circumflexcomb.case.glif</string>
 	<key>colon</key>
 	<string>colon.glif</string>
 	<key>comma</key>

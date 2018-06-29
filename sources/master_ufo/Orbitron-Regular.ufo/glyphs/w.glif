@@ -9,6 +9,7 @@
       <point x="540.0" y="479.0" type="line"/>
       <point x="756.0" y="0.0" type="line"/>
       <point x="827.0" y="0.0" type="line"/>
+      <point x="1046.0" y="579.0" type="line"/>
       <point x="1046.0" y="580.0" type="line"/>
       <point x="957.0" y="580.0" type="line"/>
       <point x="793.0" y="149.0" type="line"/>
@@ -17,10 +18,15 @@
       <point x="299.0" y="148.0" type="line"/>
       <point x="123.0" y="580.0" type="line"/>
       <point x="35.0" y="580.0" type="line"/>
+      <point x="35.0" y="579.0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=v</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=v</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

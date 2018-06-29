@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i" format="2">
-  <advance width="208.0"/>
+  <advance width="210.0"/>
   <unicode hex="0069"/>
   <outline>
     <contour>
-      <point x="52.0" y="0.0" type="line"/>
-      <point x="134.0" y="0.0" type="line"/>
-      <point x="134.0" y="580.0" type="line"/>
-      <point x="52.0" y="580.0" type="line"/>
+      <point x="64.0" y="0.0" type="line"/>
+      <point x="146.0" y="0.0" type="line"/>
+      <point x="146.0" y="580.0" type="line"/>
+      <point x="64.0" y="580.0" type="line"/>
     </contour>
     <contour>
-      <point x="52.0" y="688.0" type="line"/>
-      <point x="134.0" y="688.0" type="line"/>
-      <point x="134.0" y="770.0" type="line"/>
-      <point x="52.0" y="770.0" type="line"/>
+      <point x="64.0" y="688.0" type="line"/>
+      <point x="146.0" y="688.0" type="line"/>
+      <point x="146.0" y="770.0" type="line"/>
+      <point x="64.0" y="770.0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=o</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
