@@ -30,7 +30,7 @@ def grid(inc):
 varWght = 400
 stepUp = 0
 stepDown = 0
-for frame in range(60):
+for frame in range(65):
     newPage(W, H)
     fill(0)           # Background color
     rect(0, 0, W, H)  # Draw the background
@@ -48,7 +48,7 @@ for frame in range(60):
         if frame > 5:
             stepUp = stepUp + 20
             varWght = 400 + stepUp
-    if frame > 35:
+    if frame > 40:
         stepDown = stepDown + 20
         varWght = 900 - stepDown
     if varWght >= 900:
@@ -68,9 +68,11 @@ for frame in range(60):
     text("LMNOPQRSTU", (M-4, (896)-(5*96)))
     text("VWXYZ(.,;:)!?[]{}", (M-4, (896)-(6*96)))
     text("123456789", (M-4, (896)-(7*96)))
-    text("orbitron", (M-4, (928)-(1*96)))
-    # Draw secondary text
+    
     fill(1, 0, 0)
+    text("Orbitron-VF.ttf", (M-4, (928)-(1*96)))
+    # Draw secondary text
+    
     fontSize(94)
     text("weight:", (W/8), (H/8))
     text(str(int(varWght)), (W-500), (H/8))
