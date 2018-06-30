@@ -3,7 +3,7 @@
 # Import modules:
 import math
 
-# Basic variables:
+# Basic variables  (width, height, ):
 W, H, M, F = 1024, 1024, 128, 32
 
 # Load font and print font info:
@@ -11,7 +11,6 @@ W, H, M, F = 1024, 1024, 128, 32
 font("fonts/Orbitron-VF.ttf")
 for axis, data in listFontVariations().items():
     print((axis, data))  # Get axis info from font
-
 
 # Draw a grid from a given increment:
 def grid(inc):
@@ -24,7 +23,6 @@ def grid(inc):
     for y in range(int(((H-(M*2))/inc)+1)):
         polygon((M, M+stpY), (H-M, M+stpY))
         stpY += incY  # Set position for next gridline
-
 
 # Page loop
 varWght = 400
@@ -62,17 +60,20 @@ for frame in range(65):
     stroke(None)
     font("fonts/Orbitron-VF.ttf")
     fontSize(94)
+
+    # Draw specimen
     text("abcdefghijklmn", (M-4, (896)-(2*96)))
     text("opqrstuvwxyz", (M-4, (896)-(3*96)))
     text("ABCDEFGHIJK", (M-4, (896)-(4*96)))
     text("LMNOPQRSTU", (M-4, (896)-(5*96)))
     text("VWXYZ(.,;:)!?[]{}", (M-4, (896)-(6*96)))
-    text("123456789", (M-4, (896)-(7*96)))
-    
+    text("123456789", (M-4, (896)-(7*96)))    
     fill(1, 0, 0)
-    text("Orbitron-VF.ttf", (M-4, (928)-(1*96)))
-    # Draw secondary text
     
+    # Draw font name
+    text("Orbitron-VF.ttf", (M-4, (928)-(1*96)))
+    
+    # Draw secondary text
     fontSize(94)
     text("weight:", (W/8), (H/8))
     text(str(int(varWght)), (W-500), (H/8))
