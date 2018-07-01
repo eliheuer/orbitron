@@ -39,7 +39,7 @@ for frame in range(65):
     # Basic Style
     stroke(None)
     fill(1)
-    
+
     # Calculate the weight
     if frame <= 35:
         pass
@@ -53,7 +53,7 @@ for frame in range(65):
         varWght = 900
     if varWght <= 400:
         varWght = 400
-         
+
     fontVariations(wght=varWght)
     print("varWght=", varWght)
     fill(1)
@@ -67,16 +67,16 @@ for frame in range(65):
     text("ABCDEFGHIJK", (M-4, (896)-(4*96)))
     text("LMNOPQRSTU", (M-4, (896)-(5*96)))
     text("VWXYZ(.,;:)!?[]{}", (M-4, (896)-(6*96)))
-    text("123456789", (M-4, (896)-(7*96)))    
+    text("123456789", (M-4, (896)-(7*96)))
     fill(1, 0, 0)
-    
+
     # Draw font name
     text("Orbitron-VF.ttf", (M-4, (928)-(1*96)))
-    
+
     # Draw secondary text
     fontSize(94)
     text("weight:", (W/8), (H/8))
     text(str(int(varWght)), (W-500), (H/8))
- 
+
 # Save GIF
 saveImage("basic-animated-specimen.gif")
