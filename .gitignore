@@ -1,4 +1,5 @@
 .DS_Store
+gftools-fix-nonhinting.py
 *.ttx
 tests/*
 references/*
