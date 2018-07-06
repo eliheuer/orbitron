@@ -1,6 +1,8 @@
 # Build Notes
 
-Variable font is generated using Fontmake v1.5.0.dev0 using the following cli input: https://github.com/googlei18n/fontmake
+This typeface was updated in 2018 to work as a variable font, the variable font is `Oribitron-VF.ttf` which contains all previous weights of Orbitron in one file. If you want the legacy `ttf` and `otf` files from before the update you will find them in the `non-variable-legacy-fonts` directory.
+
+The variable font was generated using Fontmake v1.5.0.dev0 using the following cli input: https://github.com/googlei18n/fontmake
 
 ```
 fontmake -g Orbitron.glyphs -o variable
