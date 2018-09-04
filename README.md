@@ -10,7 +10,7 @@ Orbitron is a geometric sans-serif typeface intended for display purposes. It fe
 Orbitron was designed so that graphic designers in the future will have some alternative to typefaces like Eurostile or Bank Gothic. If you’ve ever seen a futuristic sci-fi movie, you have may noticed that all other fonts have been lost or destroyed in the apocalypse that led humans to flee earth. Only those very few geometric typefaces have survived to be used on spaceship exteriors, space station signage, monopolistic corporate branding, uniforms featuring aerodynamic shoulder pads, etc. Of course Orbitron could also be used on the posters for the movies portraying this inevitable future.
 
 <!-- Updated image from variable mastering fork -->
-![Orbitron](https://github.com/eliheuer/orbitron/raw/vf-mastering/docs/images/basic-animated-specimen.gif)
+![Orbitron](https://github.com/eliheuer/orbitron/raw/vf-mastering/docs/images/animated-specimen.gif)
 
 # License
 
