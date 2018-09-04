@@ -1,18 +1,20 @@
-# Render this specimen with DrawBot3: http://www.drawbot.com/
-
-# Import modules:
+# Render this specimen GIF with DrawBot3: http://www.drawbot.com/
 import math
+import os
 
 # Basic variables  (width, height, ):
 W, H, M, F = 1024, 1024, 128, 32
 
 # Load font and print font info:
 # print(installedFonts(supportsCharacters=None))
+os.chdir("..")
+os.chdir("..")
 font("fonts/Orbitron-VF.ttf")
 for axis, data in listFontVariations().items():
     print((axis, data))  # Get axis info from font
 
-# Draw a grid from a given increment:
+
+# Grid drawn from a given increment:
 def grid(inc):
     stroke(0.6, 0, 0)  # Set grid line color
     stpX, stpY = 0, 0  # Step in sequence on x axis
@@ -24,6 +26,7 @@ def grid(inc):
         polygon((M, M+stpY), (H-M, M+stpY))
         stpY += incY  # Set position for next gridline
 
+
 # Page loop
 varWght = 400
 stepUp = 0
@@ -33,7 +36,7 @@ for frame in range(65):
     fill(0)           # Background color
     rect(0, 0, W, H)  # Draw the background
 
-    # Draw the grid
+    # Draw the grid (uncomment next line)
     # grid(32)
 
     # Basic Style
@@ -54,6 +57,7 @@ for frame in range(65):
     if varWght <= 400:
         varWght = 400
 
+    # Set weight
     fontVariations(wght=varWght)
     print("varWght=", varWght)
     fill(1)
@@ -79,4 +83,8 @@ for frame in range(65):
     text(str(int(varWght)), (W-500), (H/8))
 
 # Save GIF
-saveImage("basic-animated-specimen.gif")
+os.chdir("docs")
+os.chdir("images")
+saveImage("animated-specimen.gif")
+os.chdir("..")
+os.chdir("sources")
