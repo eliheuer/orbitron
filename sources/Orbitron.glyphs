@@ -1,6 +1,9 @@
 {
-.appVersion = "1141";
-copyright = "Copyright 2009 The Orbitron Authors (https://github.com/theleagueof/orbitron)";
+.appVersion = "1169";
+DisplayStrings = (
+"/Euro ¢$£"
+);
+copyright = "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron).";
 customParameters = (
 {
 name = license;
@@ -35,10 +38,6 @@ Name = Weight;
 Tag = wght;
 }
 );
-},
-{
-name = vendorID;
-value = GOOG;
 }
 );
 date = "2011-05-25 19:46:57 +0000";
@@ -68,7 +67,7 @@ value = 1054;
 },
 {
 name = winDescent;
-value = 268;
+value = 364;
 },
 {
 name = hheaAscender;
@@ -21032,7 +21031,6 @@ z = -29;
 };
 };
 manufacturer = "The League of Moveable Type";
-manufacturerURL = "https://www.theleagueofmoveabletype.com/";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
