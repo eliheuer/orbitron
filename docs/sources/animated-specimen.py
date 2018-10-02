@@ -2,17 +2,8 @@
 import math
 import os
 
-# Basic variables  (width, height, ):
-W, H, M, F = 1024, 1024, 128, 32
-
-# Load font and print font info:
-# print(installedFonts(supportsCharacters=None))
-os.chdir("..")
-os.chdir("..")
-font("fonts/Orbitron-VF.ttf")
-for axis, data in listFontVariations().items():
-    print((axis, data))  # Get axis info from font
-
+# Basic variables:
+W, H, M = 1024, 1024, 128
 
 # Grid drawn from a given increment:
 def grid(inc):
@@ -27,64 +18,20 @@ def grid(inc):
         stpY += incY  # Set position for next gridline
 
 
-# Page loop
-varWght = 400
-stepUp = 0
-stepDown = 0
-for frame in range(65):
-    newPage(W, H)
-    fill(0)           # Background color
-    rect(0, 0, W, H)  # Draw the background
 
-    # Draw the grid (uncomment next line)
-    # grid(32)
+newPage(W, H)
+fill(0)           # Background color
+rect(0, 0, W, H)  # Draw the background
 
-    # Basic Style
-    stroke(None)
-    fill(1)
+# Draw the grid (uncomment next line)
+grid(32)
 
-    # Calculate the weight
-    if frame <= 35:
-        pass
-        if frame > 5:
-            stepUp = stepUp + 20
-            varWght = 400 + stepUp
-    if frame > 40:
-        stepDown = stepDown + 20
-        varWght = 900 - stepDown
-    if varWght >= 900:
-        varWght = 900
-    if varWght <= 400:
-        varWght = 400
+# Basic Style
+stroke(None)
+fill(1)
 
-    # Set weight
-    fontVariations(wght=varWght)
-    print("varWght=", varWght)
-    fill(1)
-    stroke(None)
-    font("fonts/Orbitron-VF.ttf")
-    fontSize(94)
-
-    # Draw specimen
-    text("abcdefghijklmn", (M-4, (896)-(2*96)))
-    text("opqrstuvwxyz", (M-4, (896)-(3*96)))
-    text("ABCDEFGHIJK", (M-4, (896)-(4*96)))
-    text("LMNOPQRSTU", (M-4, (896)-(5*96)))
-    text("VWXYZ(.,;:)!?[]{}", (M-4, (896)-(6*96)))
-    text("123456789", (M-4, (896)-(7*96)))
-    fill(1, 0, 0)
-
-    # Draw font name
-    text("Orbitron-VF.ttf", (M-4, (928)-(1*96)))
-
-    # Draw secondary text
-    fontSize(94)
-    text("weight:", (W/8), (H/8))
-    text(str(int(varWght)), (W-500), (H/8))
+rect(100, 100, 100, 100)
 
 # Save GIF
-os.chdir("docs")
-os.chdir("images")
-saveImage("animated-specimen.gif")
-os.chdir("..")
-os.chdir("sources")
+#saveImage("animated-specimen.gif")
+
