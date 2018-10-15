@@ -639,11 +639,11 @@ Reports are ready!
 * :information_source: **INFO** MS-FonVal: Not an OpenType table, contents not validated
 * :information_source: **INFO** MS-FonVal: Validation for the fpgm table is not directly implemented, but rasterization testing will validate any executed hinting instructions
 * :information_source: **INFO** MS-FonVal: Not an OpenType table, contents not validated DETAILS: This table type is defined in the Apple TrueType spec.
-* :information_source: **INFO** MS-FonVal: Loca references a zero-length entry in the glyf table DETAILS: Number of glyphs that are empty = 5
+* :information_source: **INFO** MS-FonVal: Loca references a zero-length entry in the glyf table DETAILS: Number of glyphs that are empty = 6
 * :information_source: **INFO** MS-FonVal: No string for Typographic Family name (Name ID 16)
 * :information_source: **INFO** MS-FonVal: No string for Typographic Subfamily name (Name ID 17)
-* :information_source: **INFO** MS-FonVal: The post name isn't in uniXXXX or uXXXXX format and there is no Adobe Glyph List entry DETAILS: glyph = 222, char = U+000D, name = CR
-* :information_source: **INFO** MS-FonVal: The post name isn't in uniXXXX or uXXXXX format and there is no Adobe Glyph List entry DETAILS: glyph = 271, char = U+0000, name = NULL
+* :information_source: **INFO** MS-FonVal: The post name isn't in uniXXXX or uXXXXX format and there is no Adobe Glyph List entry DETAILS: glyph = 221, char = U+000D, name = CR
+* :information_source: **INFO** MS-FonVal: The post name isn't in uniXXXX or uXXXXX format and there is no Adobe Glyph List entry DETAILS: glyph = 270, char = U+0000, name = NULL
 * :information_source: **INFO** MS-FonVal: Validation for the prep table is not directly implemented, but rasterization testing will validate any executed hinting instructions
 * :information_source: **INFO** MS-FonVal: Rasterization not selected for validation
 * :information_source: **INFO** MS-FonVal: Total time validating file DETAILS: 0:00:05
@@ -727,7 +727,6 @@ Reports are ready!
 * :bread: **PASS** MS-FonVal: The MarkBasePos subtable is valid DETAILS: LookupList, Lookup[1], SubTable[0](MarkBasePos)
 * :bread: **PASS** MS-FonVal: The LookupList table is valid DETAILS: LookupList
 * :bread: **PASS** MS-FonVal: The table length matches the expected length for this version
-* :bread: **PASS** MS-FonVal: The xAvgCharWidth field equals the calculated value
 * :bread: **PASS** MS-FonVal: The usWeightClass is a valid value DETAILS: 400
 * :bread: **PASS** MS-FonVal: The width class is a valid value DETAILS: 5
 * :bread: **PASS** MS-FonVal: The fsType field is valid DETAILS: 0x0000, Installable Embedding
@@ -735,7 +734,7 @@ Reports are ready!
 * :bread: **PASS** MS-FonVal: The yStrikeoutSize and yStrikeoutPosition appear valid
 * :bread: **PASS** MS-FonVal: The sFamilyClass Class ID and Subclass ID values are in a valid range
 * :bread: **PASS** MS-FonVal: The Unicode Range fields' bits are all allowable values
-* :bread: **PASS** MS-FonVal: The usFirstCharIndex and usLastCharIndex fields are valid DETAILS: first = 0x0000, last = 0x2212
+* :bread: **PASS** MS-FonVal: The usFirstCharIndex and usLastCharIndex fields are valid DETAILS: first = 0x0000, last = 0xe000
 * :bread: **PASS** MS-FonVal: The sTypoAscender and sTypoDescender fields are reasonable values DETAILS: sTypoAscender = 750, sTypoDescender = -250
 * :bread: **PASS** MS-FonVal: The CodePage Range fields' bits are all allowable values
 * :bread: **PASS** MS-FonVal: The sxHeight field is nonzero DETAILS: 580
@@ -753,7 +752,6 @@ Reports are ready!
 * :bread: **PASS** MS-FonVal: The subtable internal format appears valid DETAILS: PlatID = 0, EncID = 3, Fmt = 4
 * :bread: **PASS** MS-FonVal: The subtable internal format appears valid DETAILS: PlatID = 3, EncID = 1, Fmt = 4
 * :bread: **PASS** MS-FonVal: Character code U+20AC, the euro character, is mapped for cmap 3,1
-* :bread: **PASS** MS-FonVal: No characters are mapped in the Unicode Private Use area
 * :bread: **PASS** MS-FonVal: All non mac subtables have a language field of zero
 * :bread: **PASS** MS-FonVal: The length of the cvt table is an even number of bytes
 * :bread: **PASS** MS-FonVal: The version number is valid DETAILS: version = 1
@@ -765,14 +763,13 @@ Reports are ready!
 * :bread: **PASS** MS-FonVal: Table length is 54 bytes
 * :bread: **PASS** MS-FonVal: The table version number is 0x00010000
 * :bread: **PASS** MS-FonVal: fontRevision is consistent with the font's version string DETAILS: 1.000
-* :bread: **PASS** MS-FonVal: Font checksum is correct DETAILS: 0x471e17fc
+* :bread: **PASS** MS-FonVal: Font checksum is correct DETAILS: 0x3dee2f7b
 * :bread: **PASS** MS-FonVal: The magic number is 0x5f0f3cf5
 * :bread: **PASS** MS-FonVal: Non-linear scaling flag (bit 4) is clear, and hdmx table is not present
 * :bread: **PASS** MS-FonVal: Non-linear scaling flag (bit 4) is clear, and LTSH table is not present
 * :bread: **PASS** MS-FonVal: Reserved bit 14 of the flags field is clear
 * :bread: **PASS** MS-FonVal: Reserved bit 15 of the flags field is clear
 * :bread: **PASS** MS-FonVal: The created time is not zero DETAILS: created = 3389197617 (Wednesday, May 25, 2011 7:46 PM)
-* :bread: **PASS** MS-FonVal: The modified time is not zero DETAILS: modified = 3621360808 (Tuesday, October 2, 2018 9:33 PM)
 * :bread: **PASS** MS-FonVal: The xMin value matches the minimum glyph xMin DETAILS: xMin = -187
 * :bread: **PASS** MS-FonVal: The yMin value matches the minimum glyph yMin DETAILS: yMin = -268
 * :bread: **PASS** MS-FonVal: The xMax value matches the maximum glyph xMax DETAILS: xMax = 1354
@@ -829,24 +826,28 @@ Reports are ready!
 * :bread: **PASS** MS-FonVal: The isFixedPitch field is consistent with other table(s) DETAILS: matches the hmtx and OS/2 tables
 * :bread: **PASS** MS-FonVal: The numberOfGlyphs field equals maxp.numGlyphs
 * :bread: **PASS** MS-FonVal: The glyphNameIndex array contains valid indexes
+* :bread: **PASS** MS-FonVal: The names in the post table are consistent with the Adobe Glyph List names
 * :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: kern
 * :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: hdmx
 * :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: VDMX
 * :warning: **WARN** MS-FonVal: The version number is valid, but less than 5 DETAILS: 4
+* :warning: **WARN** MS-FonVal: The xAvgCharWidth field does not equal the calculated value DETAILS: actual = 660, calc = 665
 * :warning: **WARN** MS-FonVal: PANOSE(tm) is undefined. Font mapping may not work properly
 * :warning: **WARN** MS-FonVal: There are undefined bits set in fsSelection field DETAILS: Bit(s) 7
-* :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #0, Latin 1 (34 missing, first ten missing chars are: U005E U201A U0192 U201E U2020 U2021 U2030 U2039 U2122 U203A)
+* :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #0, Latin 1 (35 missing, first ten missing chars are: U005E U201A U0192 U201E U2020 U2021 U2030 U2039 U2122 U203A)
 * :warning: **WARN** MS-FonVal: The table does not contain any Apple subtables
 * :warning: **WARN** MS-FonVal: Apple logo mapping test not performed, cmap 1,0 not present
-* :warning: **WARN** MS-FonVal: Duplicated knots DETAILS: Glyph index 236
+* :warning: **WARN** MS-FonVal: Characters are mapped in the Unicode Private Use area
+* :warning: **WARN** MS-FonVal: Duplicated knots DETAILS: Glyph index 235
 * :warning: **WARN** MS-FonVal: The unitsPerEm value is not a power of two DETAILS: 1000
+* :warning: **WARN** MS-FonVal: The modified time is an unlikely value DETAILS: modified = 3622481653 (Monday, October 15, 2018 8:54 PM)
 * :warning: **WARN** MS-FonVal: The lowestRecPPEM value may be unreasonably small DETAILS: lowestRecPPEM = 6
 * :warning: **WARN** MS-FonVal: Ascender is different than OS/2.usWinAscent. Different line heights on Windows and Apple DETAILS: hhea.Ascender = 750, OS/2.usWinAscent = 1054
 * :warning: **WARN** MS-FonVal: Descender is different than OS/2.usWinDescent. Different line heights on Windows and Apple DETAILS: hhea.Descender = -250, OS/2.usWinDescent = 364
 * :warning: **WARN** MS-FonVal: The LineGap value is less than the recommended value DETAILS: LineGap = 0, recommended = 418
-* :warning: **WARN** MS-FonVal: The leftSideBearing is greater than the advance width (unlikely value) DETAILS: glyph# 243
-* :warning: **WARN** MS-FonVal: The leftSideBearing is greater than the advance width (unlikely value) DETAILS: glyph# 250
-* :warning: **WARN** MS-FonVal: Loca references a glyf entry which length is not a multiple of 4 DETAILS: Number of glyphs with the warning = 127
+* :warning: **WARN** MS-FonVal: The leftSideBearing is greater than the advance width (unlikely value) DETAILS: glyph# 242
+* :warning: **WARN** MS-FonVal: The leftSideBearing is greater than the advance width (unlikely value) DETAILS: glyph# 249
+* :warning: **WARN** MS-FonVal: Loca references a glyf entry which length is not a multiple of 4 DETAILS: Number of glyphs with the warning = 128
 * :warning: **WARN** MS-FonVal: maxSizeOfInstructions computation not via either approved method DETAILS: glyf maxSizeOfInstructions=199, prep size=167, fpgm size=3605, whereas maxp maxSizeOfInstruction is 3605
 * :warning: **WARN** MS-FonVal: The MS version string doesn't match the Mac version string
 
@@ -856,6 +857,24 @@ Reports are ready!
 
 * [com.google.fonts/check/018](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/018)
 * :warning: **WARN** OS/2 VendorID value 'NONE' is not a known registered id. You should set it to your own 4 character code, and register that code with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx [code: unknown]
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/153](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/153)
+* :warning: **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+Glyph name: uniE000	Contours detected: 0	Expected: 1
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
+
+* [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
+* :warning: **WARN** OS/2 xAvgCharWidth is 660 but should be 665 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font. These are similar values, which may be a symptom of the slightly different calculation of the xAvgCharWidth value in font editors. There's further discussion on this at https://github.com/googlefonts/fontbakery/issues/1622
 
 </details>
 <details>
@@ -1210,8 +1229,8 @@ Reports are ready!
 |  | fonts/Orbitron-VF.ttf |
 |:--- | ---:|
 | Dehinted Size | 36.4kb |
-| Hinted Size | 50.5kb |
-| Increase | 14.1kb |
+| Hinted Size | 50.4kb |
+| Increase | 14.0kb |
 | Change   | 0.4 % |
 
 
@@ -1260,7 +1279,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [gasp, fpgm, DSIG, prep, cvt , GPOS, loca]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, DSIG, gasp, prep, loca, GPOS, cvt ]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1360,13 +1379,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/116)
 * :bread: **PASS** Font em size is equal to 1000.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/153](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/153)
-* :bread: **PASS** All glyphs have the recommended amount of contours
 
 </details>
 <details>
@@ -1510,13 +1522,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
-
-* [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
-* :bread: **PASS** OS/2 xAvgCharWidth value is correct.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Font has correct post table version (2 for TTF, 3 for OTF)?</summary>
 
 * [com.google.fonts/check/015](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/015)
@@ -1656,5 +1661,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 1 | 64 | 6 | 61 |
-| 0% | 1% | 1% | 48% | 4% | 46% |
+| 0 | 2 | 3 | 64 | 6 | 59 |
+| 0% | 1% | 2% | 48% | 4% | 44% |
