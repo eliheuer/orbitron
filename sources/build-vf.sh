@@ -136,41 +136,41 @@ sleep $SLEEPTIME
 echo '[:] Done'
 
 # Fix no Hinting
-echo "
-*** Start gftools-fix-nonhinting.py ***************************"
-gftools fix-nonhinting \
-    variable_ttf/$FONTFILE \
-    variable_ttf/$FONTFILE.fix &&
-echo '[+] Done'
-echo '[:] Removing input file'
-rm -rf variable_ttf/$FONTFILE &&
-echo '[+] Done'
-echo "[:] Renaming output file to \c"
-echo $FONTFILE
-mv variable_ttf/$FONTFILE.fix variable_ttf/$FONTFILE
-echo '[+] Done'
+# echo "
+# *** Start gftools-fix-nonhinting.py ***************************"
+# gftools fix-nonhinting \
+#     variable_ttf/$FONTFILE \
+#     variable_ttf/$FONTFILE.fix &&
+# echo '[+] Done'
+# echo '[:] Removing input file'
+# rm -rf variable_ttf/$FONTFILE &&
+# echo '[+] Done'
+# echo "[:] Renaming output file to \c"
+# echo $FONTFILE
+# mv variable_ttf/$FONTFILE.fix variable_ttf/$FONTFILE
+#echo '[+] Done'
 
 # Run autohint
-echo "
-*** Start ttfautohint *****************************************"
-ttfautohint \
-    variable_ttf/$FONTFILE \
-    variable_ttf/$FONTFILE.fix --verbose &&
-rm -rf variable_ttf/$FONTFILE
-echo '[+] Done'
-echo "[:] Remove input file"
-mv variable_ttf/$FONTFILE.fix variable_ttf/$FONTFILE &&
-echo '[+] Done'
-echo "[:] Renaming output file to \c"
-echo $FONTFILE
-echo '[+] Done'
+# echo "
+# *** Start ttfautohint *****************************************"
+# ttfautohint \
+#     variable_ttf/$FONTFILE \
+#     variable_ttf/$FONTFILE.fix --verbose &&
+# rm -rf variable_ttf/$FONTFILE
+# echo '[+] Done'
+# echo "[:] Remove input file"
+# mv variable_ttf/$FONTFILE.fix variable_ttf/$FONTFILE &&
+# echo '[+] Done'
+# echo "[:] Renaming output file to \c"
+# echo $FONTFILE
+# echo '[+] Done'
 
 # Fix no dsgi
-echo "
-*** Start gftools-fix-dsig.py *********************************"
-gftools fix-dsig \
-    variable_ttf/$FONTFILE --autofix &&
-echo "[+] Done"
+# echo "
+# *** Start gftools-fix-dsig.py *********************************"
+# gftools fix-dsig \
+#      variable_ttf/$FONTFILE --autofix &&
+# echo "[+] Done"
 
 echo "
 *** Moving font file to $n/fonts/$FONTFILE ********************"
@@ -184,9 +184,9 @@ echo "[+] Removed master_ufo/"
 echo "[+] Removed variable_ttf/"
 echo "[+] Done"
 
-echo "copy!"
-cp fonts/Orbitron-VF.ttf ~/Blog/eliheuer.github.io/fonts/Orbitron-VF.ttf
-echo "BANG!"
+# echo "copy!"
+# cp fonts/Orbitron-VF.ttf ~/Blog/eliheuer.github.io/fonts/Orbitron-VF.ttf
+# echo "BANG!"
 
 # Switch to python 3
 # deactivate
