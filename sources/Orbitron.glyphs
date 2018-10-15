@@ -1,14 +1,8 @@
 {
 .appVersion = "1172";
 DisplayStrings = (
-"&",
-"/breve",
 A,
-"´",
-"/acutecomb",
-"/circumflexcomb",
-"/caron",
-"/gravecomb"
+"Á"
 );
 copyright = "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron).";
 customParameters = (
@@ -184,7 +178,7 @@ position = "{740, 0}";
 },
 {
 name = top;
-position = "{419, 750}";
+position = "{407, 750}";
 }
 );
 layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
@@ -291,26 +285,40 @@ layers = (
 components = (
 {
 name = A;
-},
-{
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 419, 30}";
 }
 );
 layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"424 864 LINE",
+"458 1003 LINE",
+"379 1003 LINE",
+"344 864 LINE"
+);
+}
+);
 width = 836;
 },
 {
 components = (
 {
 name = A;
-},
-{
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 416, 0}";
 }
 );
 layerId = "D465923C-ABAE-4975-85A4-08C1BC9DA335";
+paths = (
+{
+closed = 1;
+nodes = (
+"491 769 LINE",
+"542 972 LINE",
+"385 972 LINE",
+"334 769 LINE"
+);
+}
+);
 width = 832;
 }
 );
@@ -329,7 +337,7 @@ name = A;
 },
 {
 name = circumflexcomb.case;
-transform = "{1, 0, 0, 1, 419, 30}";
+transform = "{1, 0, 0, 1, 407, 30}";
 }
 );
 layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
@@ -362,7 +370,7 @@ name = A;
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 419, 30}";
+transform = "{1, 0, 0, 1, 407, 30}";
 }
 );
 layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
@@ -395,7 +403,7 @@ name = A;
 },
 {
 name = gravecomb.case;
-transform = "{1, 0, 0, 1, 419, 30}";
+transform = "{1, 0, 0, 1, 407, 30}";
 }
 );
 layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
@@ -428,7 +436,7 @@ name = A;
 },
 {
 name = ringcomb.case;
-transform = "{1, 0, 0, 1, 419, 30}";
+transform = "{1, 0, 0, 1, 407, 30}";
 }
 );
 layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
@@ -461,7 +469,7 @@ name = A;
 },
 {
 name = tildecomb.case;
-transform = "{1, 0, 0, 1, 419, 30}";
+transform = "{1, 0, 0, 1, 407, 30}";
 }
 );
 layerId = "17A5F7C0-AED1-4270-89BA-BFDC1003B8A5";
@@ -19884,10 +19892,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 770 LINE",
-"74 909 LINE",
-"-5 909 LINE",
-"-40 770 LINE"
+"39 834 LINE",
+"73 973 LINE",
+"-6 973 LINE",
+"-41 834 LINE"
 );
 }
 );
